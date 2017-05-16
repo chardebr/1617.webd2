@@ -112,7 +112,7 @@ h1{
 
 
 
-/* kaders kleuren */
+/* kaders kleuren (styleguide) */
     
 .kader1 {
     color: rgba(254, 217, 183, 1);
@@ -152,48 +152,6 @@ h1{
     text-indent: -999px;
 }
 
-/* patroon kaders */
-.grid {
-  		overflow: hidden;
-			padding: 0.5em 0 0 0.5em;
-			max-width: 76em;
-			margin: 0 auto;
-		}
-		.grid li {
-			padding: 0 0.5em 0.5em 0;
-		}
-		.grid li > div {
-			background: #808080;
-			padding: 7em 2em;
-			text-align: center;
-		}
-		.grid li a {
-			color: #fff;
-		}
-		
-		@media all and (min-width: 27em) {
-			.grid li {
-				width: 50%;
-				float: left;
-			}
-		}
-		
-		@media all and (min-width: 40em) {
-			.grid li {
-				width: 33.3333333%;
-			}
-			.grid li.wide {
-				width: 66.666666%;
-			}
-		}
-		@media all and (min-width: 60em) {
-			.grid li {
-				width: 25%;
-			}
-			.grid li.wide {
-				width: 50%;
-			}
-		}
 
 /* contactformulier */
 body {
@@ -209,7 +167,7 @@ body {
   margin:auto;
   background: white;
   border-radius: 3px;
-  margin-top: 5em;
+  margin-top: 30px;
   margin-bottom: 6em;
   padding: 1.25em;
 }
@@ -278,6 +236,8 @@ h3 {
   -webkit-appearance: none;
 } 
 
+
+
 /* Grootte + specificaties */
 input, textarea {
   transition: all 800ms;
@@ -293,26 +253,14 @@ input, textarea {
   margin-top: 1.25em;
 }
 
+
+
 /* Lijntje onder invulbalk */
 input:focus, textarea:focus {
   border-color: #48c9b0;
   color: #34495e;
 } 
 
-/* kaders startpagina */
-.r1.1{
-
-}
-
-.r1.2{
-
-}
-
-.r1.3{
-
-}
-
-.r1.4 {}
 
 /* titel */
 a.naam {
@@ -321,24 +269,255 @@ a.naam {
     width:395px;
     height:200px;
     text-indent: -999px;
+    margin: 0 auto
     /*margin: 0 0 0 530px;*/
 }
 
-a.motor {
-    background-image: url(../assets/images/motor.png);
+
+
+/* afbeelding motor*/
+.motor {
+    background: url(../assets/images/motor.png) no-repeat;
     display:block;
-    width: 596px;
-    height:365px;
-    text-indent: -999px;
-    margin: 80px 0 0 400px; /* boven rechts onder links */
-    position: center;
+    width: 500px;
+    height:700px;
+    text-indent: -10000px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center; 
+    /*margin: 80px 0 0 400px; /* boven rechts onder links */
     
+      
+}
+
+
+
+/* Stook moto */
+
+.blauw_vlak {
+    position: relative;
+    text-align: center;
+    background: rgba(54, 111, 102, 0.15);
+    width: 100%;
+    height: 350px;
+    margin-top: -130px;
+
+}
+
+.blauw_vlak1 {
+    position: relative;
+    text-align: center;
+    background: rgba(54, 111, 102, 0.15);
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+
+}
+
+.tekst_links{
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+
+}
+ 
+.tekst_rechts{
+    position: relative;
+    text-align: right;
+    margin-right: 30px;
     
 }
+
+
+hr{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 900px;
+    
+
+}
+
+.stylguide_tekst {
+    margin: 0 auto;
+
+}
+
+.voorbeeld_website1 {
+    background: url(../assets/images/voorbeeld_website1.png) no-repeat; 
+    display:block;
+    width: 500px;
+    height:700px;
+    text-indent: -10000px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center; 
+}
+
+
+
+/* kaders over ons */
+.kdr_ons1 {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 80px;
+    border: 1px solid black;
+    
+}
+
+.team {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+
+
+/* vakjes opmaak van index en projecten*/
+
+.wrapper {
+    height: 1100px;
+    width: 100%;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.group {
+ display: flex;
+ justify-content: space-between;
+ width: 22%;
+ height:  100%;
+ border: 1px ;
+ flex-wrap: wrap; /* einde lijn naar volgende lijn */
+ margin-right: 3%;
+ 
+}
+
+.klein {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+.groot {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#motor {
+    background-image: url(../assets/images/motor.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#motor > a {
+width: 100%;
+height: 100%;
+}
+
+
+
+/* foto's en kleuren index pagina */
+.blauw1 {
+    background-color:rgb(54, 111, 102);
+    opacity: 0.4;
+    border: hidden;
+}
+
+.parfum {
+    background-image: url(../assets/images/parfum.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden;
+}
+
+.peren {
+    background-image: url(../assets/images/peren_rechthoek.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.steltloper {
+    background-image: url(../assets/images/steltloper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.explosie {
+    background-image: url(../assets/images/explosie.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.blauw2 {
+    background-color: rgb(54, 106, 107);
+    opacity: 0.5;
+    border: hidden;
+}
+
+.bureau1 {
+    background-image: url(../assets/images/bureau1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden;
+}
+
+.bureau2 {
+    background-image: url(../assets/images/bureau2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden;
+}
+
+/* Contact pagina */
+.blauw_vlak3 {
+    position: relative;
+    text-align: center;
+    background: rgba(54, 111, 102, 0.10);
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+
+}
+
 
 
 /* Footer */
 .footer {
-
+    margin-bottom: 130px;
+    border-top: 1px solid rgb(47,66, 72) ;
+    margin: 100px;
+ 
 }
+
+.footer_tekst {
+    border-right: 1px solid rgb(54, 111, 102);  
+}
+
+.footer_tekst2 {
+    margin-left: 8px;
+    border-right: 1px solid rgb(54, 111, 102);
+}
+
+.sociale_media{
+    border: 1px solid rgb(47,66, 72);
+    width: 1px;
+    
+}
+
   

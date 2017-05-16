@@ -43,10 +43,12 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
+    <link rel="stylesheet" media="all" href="vendor/font-awesome/css/font-awesome.min.css">
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
@@ -79,86 +81,84 @@
     href="#tab-angular"
     href="#tab-other"-->
 
-    <!-- vierkanten 
-  <section id="pattern" class="pattern">
-  	<ul class="grid">
-			<li>
-				<div class="kader kader1"></div>	
-			</li>
-			<li>
-				<div class="kader kader2"></div>	
-			</li>
-			<li>
-				<div class="kader kader3"></div>	
-			</li>
-			<li>
-				<div class="kader kader4"></div>
-			</li>
-			<li>
-				<div class="kader kader5"></div>	
-			</li>
-			<li>
-				<div class="kader kader6"></div>	
-			</li>
-			<li>
-				<div class="kader kader7"></div>	
-			</li>
-			<li>
-				<div class="kader kader8"></div>	
-			</li>
-			<li>
-				<div class="kader kader9"></div>	
-			</li>
-			<li>
-			 <div class="kader kader10"></div>	
-			</li>
-			<li>
-				<div class="kader kader11"></div>	
-			</li>
-			<li>
-				<div class="kader kader12"></div>	
-			</li>
-		</ul>
-	</section> -->
+<!-- vakjes -->
+<div class="sf-grid__row" >
+  <div class="sf-grid__column-1"></div>
+<div class="sf-grid__column-10">
+  <div class="wrapper">
+    <div class="group"> 
+       <a class="groot bureau2"></a>  
+      <a class="groot parfum"></a>
+      <a class="klein"></a>
+  </div>
+    <div class="group">
+      <a class="groot" id="motor" href="motor.html"> </a>
+      <a class="groot"></a>
+      <a class="klein blauw1"></a>
+      </div>
 
-  <!-- kaders -->
-  <div class="sf-grid__wrapper">
-       <div class="sf-grid__container">
-         <div class="sf-grid__row">
-           <div class="sf-grid__column-3">
-             <article class="news-article">
-         
-             <div class="r1.1"><span>rij 1 foto 2</span></div>
+    <div class="group">
+      <a class="klein steltloper"></a>
+      <a class="klein blauw2"></a>
+      <a class="groot bureau1"></a>
+      <a class="klein"></a>
+  </div>
 
-             </article>
-          </div>   
-          <div class="sf-grid__column-3">
-            <article class="news-article">
-        
-            <div class="r1.2"><span>rij 1 foto 2</span></div>
-
-            </article>
-         </div>  
-         <div class="sf-grid__column-3">
-           <article class="news-article">
-       
-           <div class="r1.3"><span>rij 1 foto 3</span></div>
-
-           </article>
-        </div>  
-        <div class="sf-grid__column-3">
-          <article class="news-article">
-      
-          <div class="r1.3"><span>rij 1 foto 4</span></div>
-
-          </article>
-       </div>  
+    <div class="group">
+        <a class="groot peren"></a>
+        <a class="klein"></a>
+        <a class="klein explosie"></a>
+      <a class="klein blauw2"></a>
       </div>
     </div>
+    </div>
+  </div>
+</div>
+
+ <!-- footer -->
+
+<div class="footer-wrapper">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
+				<footer class="footer">
+					<h1 class="hidden"></h1>
+					<div class="sf-grid__row">
+						<div class="sf-grid__column-4">
+						volg ons ook op
+						</div>
+            <div class="sf-grid__column-1 sociale_media">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="sf-grid__column-1 sociale_media">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="sf-grid__column-1 sociale_media">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+						<div class="sf-grid__column-4 footer_tekst">
+							Alphonse claeys bouüaertlaan 49, <br>9030 Mariakerke
     
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
+						</div>
+            <div class="sf-grid__column-4 footer_tekst2">
+							0412 34 34 34
+          
+						</div>
+						
+                        <div class="sf-grid__column-3">
+						   
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+</div>
+
+ 
+    
+    
+  
     <script src="js/main.js"></script>
   </body>
 </html>
