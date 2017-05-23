@@ -110,6 +110,9 @@ h1{
     display: block
 }
 
+.logo_cb {
+    background-image: url(../!)àp
+}
 
 
 /* kaders kleuren (styleguide) */
@@ -285,6 +288,7 @@ a.naam {
     margin: 0 auto;
     background-size: contain;
     background-position: center; 
+    border: 1px solid black;
     /*margin: 80px 0 0 400px; /* boven rechts onder links */
     
       
@@ -317,14 +321,14 @@ a.naam {
 .tekst_links{
     position: relative;
     text-align: left;
-    margin-left: 30px;
+    padding: 20px
 
 }
  
 .tekst_rechts{
     position: relative;
     text-align: right;
-    margin-right: 30px;
+    padding: 20px;
     
 }
 
@@ -372,6 +376,9 @@ hr{
     width: 200px;
     border: 1px solid black;
     margin-top: 40px;
+    padding-right: 30px;
+    display: flex
+
 }
 
 
@@ -415,7 +422,6 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
 }
 
 #motor > a {
@@ -498,26 +504,41 @@ height: 100%;
 
 
 /* Footer */
-.footer {
-    margin-bottom: 130px;
-    border-top: 1px solid rgb(47,66, 72) ;
-    margin: 100px;
- 
-}
 
+footer {
+    margin: 0 20px;
+    border-top: 1px solid black;
+    padding: 40px 0 ;
+
+}
 .footer_tekst {
     border-right: 1px solid rgb(54, 111, 102);  
+    text-align: center;
 }
 
-.footer_tekst2 {
-    margin-left: 8px;
-    border-right: 1px solid rgb(54, 111, 102);
-}
-
-.sociale_media{
-    border: 1px solid rgb(47,66, 72);
-    width: 1px;
+.footer_tekst:last-child {
+    border-right: 0;
     
 }
+.sociale_media {
+    border: 1px solid rgb(47,66, 72);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin-right: 10px;
+}
 
+.sociale_media >p {
+    margin: auto;
+    font-size: 24px;
+    
+}
   
+.iconen {
+    display: flex;
+    flex-direction: row;
+}
+
+.tekst {
+    margin-top: 25px;
+}
