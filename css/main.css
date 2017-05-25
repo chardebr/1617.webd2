@@ -267,13 +267,14 @@ input:focus, textarea:focus {
 
 /* titel */
 a.naam {
-    background-image: url(../assets/images/artsine2.png);
+    background-image: url(../assets/images/artsine.png);
     display:block; 
-    width:395px;
-    height:200px;
+    width:520px;
+    height:255px;
     text-indent: -999px;
-    margin: 0 auto
-    /*margin: 0 0 0 530px;*/
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
 }
 
 
@@ -407,14 +408,15 @@ hr{
 .klein {
     height: 200px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(151, 184, 186);
+    
     
 }
 
 .groot {
     height: 400px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(151, 184, 186);
 }
 
 #motor {
@@ -461,6 +463,15 @@ height: 100%;
 
 }
 
+.personen2 {
+    background-image: url(../assets/images/personen2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+
+}
+
 .explosie {
     background-image: url(../assets/images/explosie.png);
     background-repeat: no-repeat;
@@ -472,9 +483,10 @@ height: 100%;
     background-color: rgb(54, 106, 107);
     opacity: 0.5;
     border: hidden;
+
 }
 
-.bureau1 {
+.bureau3 {
     background-image: url(../assets/images/bureau1.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -488,6 +500,44 @@ height: 100%;
     background-size: contain;
     background-position: center;
     border: hidden;
+}
+
+.tegenlicht {
+background-image: url(../assets/images/tegenlicht.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden;
+
+}
+
+.tekst_kader1 {
+    text-align: center;
+    margin: O auto;
+    display: block;
+    margin-top: 150px;  
+    
+}
+
+.tekst_kader2 {
+    text-align: center;
+    margin: O auto;
+    display: block;
+    margin-top: 65px;  
+}
+
+.tekst_kader3 {
+    text-align: center;
+    margin: O auto;
+    display: block;
+    margin-top: 50px;  
+}
+
+.tekst_kader4 {
+    text-align: center;
+    margin: O auto;
+    display: block;
+    margin-top: 50px;  
 }
 
 /* Contact pagina */
