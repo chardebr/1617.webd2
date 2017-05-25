@@ -508,9 +508,24 @@ background-image: url(../assets/images/tegenlicht.jpg);
     background-size: contain;
     background-position: center;
     border: hidden;
+}
+
+.personen {
+    background-image: url(../assets/images/personen.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden;
 
 }
 
+.camille {
+    background-image: url(../assets/images/camille.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden; 
+}
 .tekst_kader1 {
     text-align: center;
     margin: O auto;
@@ -538,6 +553,17 @@ background-image: url(../assets/images/tegenlicht.jpg);
     margin: O auto;
     display: block;
     margin-top: 50px;  
+}
+
+/* foto's en teksten kaders in pagina projecter */
+
+.tine {
+     background-image: url(../assets/images/tine.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: hidden; 
+
 }
 
 /* Contact pagina */
