@@ -319,6 +319,16 @@ a.naam {
 
 }
 
+.blauw_vlak2 {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+
+}
+
 .tekst_links{
     position: relative;
     text-align: left;
@@ -378,8 +388,8 @@ hr{
     height: 300px;
     width: 180px;
     border: 1px solid black;
-    margin-top: 20px;
-    
+    margin-top: 30px;
+      
 }
 .team {
     position: relative;
@@ -390,9 +400,39 @@ hr{
     margin-top: 40px;
     padding-right: 30px;
     display: flex
-
 }
 
+.persoon1 {
+    background-image: url(../assets/images/persoon1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border:none;
+}
+
+.persoon2 {
+    background-image: url(../assets/images/persoon2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border:none;
+}
+
+.persoon3 {
+    background-image: url(../assets/images/persoon3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border:none;
+}
+
+.personen_overons {
+    background-image: url(../assets/images/personen.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border:none;
+}
 /* kaders pagina diensten */
 
 .studio {
@@ -428,6 +468,7 @@ hr{
     flex-direction: row;
     margin-top: 50px;
 }
+
 .group {
  display: flex;
  justify-content: space-between;
@@ -435,16 +476,13 @@ hr{
  height:  100%;
  border: 1px ;
  flex-wrap: wrap; /* einde lijn naar volgende lijn */
- margin-right: 3%;
- 
+ margin-right: 3%; 
 }
 
 .klein {
     height: 200px;
     width: 100%;
-    border: 1px solid rgb(151, 184, 186);
-    
-    
+    border: 1px solid rgb(151, 184, 186);     
 }
 
 .groot {
@@ -464,8 +502,6 @@ hr{
 width: 100%;
 height: 100%;
 }
-
-
 
 /* foto's en kleuren index pagina */
 .blauw1 {
@@ -494,7 +530,6 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
 }
 
 .personen2 {
@@ -504,7 +539,6 @@ height: 100%;
     background-position: center;
     border: none;
     opacity: 0.7;
-
 }
 
 .explosie {
@@ -518,7 +552,6 @@ height: 100%;
     background-color: rgb(54, 106, 107);
     opacity: 0.5;
     border: hidden;
-
 }
 
 .bureau3 {
@@ -555,7 +588,6 @@ background-image: url(../assets/images/tegenlicht.jpg);
     background-position: center;
     border: hidden;
     opacity: 0.7;
-
 }
 
 .camille {
@@ -659,5 +691,9 @@ footer {
 }
 
 .footer_diensten {
+    margin-top: 60px;
+}
+
+footer_overons {
     margin-top: 60px;
 }
