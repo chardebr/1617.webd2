@@ -106,8 +106,7 @@ h1{
 }
 
 .tekst-uitlijnen {
-    width: 800px;
-    display: block
+    display: block;
 }
 
 .logo_cb {
@@ -157,6 +156,9 @@ h1{
 
 
 
+.stylguide_margin {
+    margin-bottom: 60px;
+}
 
 /* Grootte + specificaties */
 input, textarea {
@@ -286,7 +288,7 @@ a.naam {
 
 hr{
     display: block;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     width: 900px;
     
 
@@ -296,8 +298,10 @@ hr{
 }
 .stylguide_tekst {
     margin: 0 auto;
+    margin-top: 20px;
 
 }
+
 
 .voorbeeld_website1 {
     background: url(../assets/images/voorbeeld_website1.png) no-repeat; 
