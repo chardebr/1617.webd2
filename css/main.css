@@ -338,6 +338,14 @@ hr{
     
 }
 
+.kdr_ons3 {
+ position: relative;
+    display: block;
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 75px;
+}
 .team {
     position: relative;
     display: block;
@@ -653,6 +661,7 @@ background-image: url(../assets/images/tegenlicht.jpg);
 
 .kaart {
     margin-top: 50px;
+    position: center;
 }
 
 .facebook {
