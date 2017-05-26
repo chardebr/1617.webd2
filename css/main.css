@@ -353,6 +353,8 @@ hr{
 
 }
 
+
+}
 .stylguide_tekst {
     margin: 0 auto;
 
@@ -378,19 +380,21 @@ hr{
     height: 200px;
     width: 80px;
     border: 1px solid black;
-    margin-top: 70px;
+    margin-top: 75px;
+    
     
 }
 
 .kdr_ons2 {
     position: relative;
     display: block;
-    height: 300px;
-    width: 180px;
+    height: 200px;
+    width: 80px;
     border: 1px solid black;
-    margin-top: 30px;
-      
+    margin-top: 75px;
+    
 }
+
 .team {
     position: relative;
     display: block;
@@ -399,7 +403,8 @@ hr{
     border: 1px solid black;
     margin-top: 40px;
     padding-right: 30px;
-    display: flex
+    display: flex;
+    border: none;
 }
 
 .persoon1 {
@@ -407,7 +412,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border:none;
+    border: none;
 }
 
 .persoon2 {
@@ -415,7 +420,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border:none;
+    border: none;
 }
 
 .persoon3 {
@@ -423,7 +428,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border:none;
+    border: none;
 }
 
 .personen_overons {
@@ -431,7 +436,7 @@ hr{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    border:none;
+    border: none;
 }
 /* kaders pagina diensten */
 
@@ -439,8 +444,10 @@ hr{
     background-image: url(../assets/images/studio.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    border:none;
+    background-position: 50% 0%; 
+    border: none;
+    
+
 }
 
 .ontwerpen {
@@ -482,7 +489,8 @@ hr{
 .klein {
     height: 200px;
     width: 100%;
-    border: 1px solid rgb(151, 184, 186);     
+    border: 1px solid rgb(151, 184, 186);   
+    
 }
 
 .groot {
@@ -637,6 +645,47 @@ background-image: url(../assets/images/tegenlicht.jpg);
 
 }
 
+.bowling {
+    background-image: url(../assets/images/bowling2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.neushoorn {
+    background-image: url(../assets/images/neushoorn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.logocb {
+    background-image: url(../assets/images/logocb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.mock_up {
+     background-image: url(../assets/images/mock_up.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bowling2 {
+    background-image: url(../assets/images/bowling2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.verkniping {
+    background-image: url(../assets/images/verknipt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 /* Contact pagina */
 .blauw_vlak3 {
     position: relative;
