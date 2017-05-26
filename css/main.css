@@ -638,10 +638,24 @@ background-image: url(../assets/images/tegenlicht.jpg);
 
 }
 
+.tekst_contact {
+    position: relative;
+    text-align: left;
+    margin-top: 90px;
+}
+
 /* contact pagina */
 
 .kaart {
     margin-top: 50px;
+}
+
+.facebook {
+     border: 1px solid rgb(47,66, 72);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin-right: 10px;
 }
 
 /* contactformulier */
