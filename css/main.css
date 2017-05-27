@@ -662,6 +662,7 @@ background-image: url(../assets/images/tegenlicht.jpg);
 .kaart {
     margin-top: 50px;
     position: center;
+    margin-bottom: 50px;
 }
 
 .facebook {
@@ -781,11 +782,14 @@ footer {
     height: 35px;
     display: flex;
     margin-right: 10px;
+    text-decoration: none;
 }
 
-.sociale_media >p {
+.sociale_media >a {
     margin: auto;
     font-size: 24px;
+    text-decoration: none;
+    color: rgb(47,66,72);
     
 }
   
